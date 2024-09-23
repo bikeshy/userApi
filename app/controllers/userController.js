@@ -15,10 +15,10 @@ const twilio = require('twilio');
 *** Twilio credentials
 **
 */
-// const TwilioaccountSid = process.env.TWILIO_ACCOUNT_SID;
-// const TwilioauthToken = process.env.TWILIO_AUTH_TOKEN;
-// const client = new twilio(TwilioaccountSid, TwilioauthToken);
-const client=''
+const TwilioaccountSid = process.env.TWILIO_ACCOUNT_SID;
+const TwilioauthToken = process.env.TWILIO_AUTH_TOKEN;
+const client = new twilio(TwilioaccountSid, TwilioauthToken);
+// const client=''
 
 /*
 **
