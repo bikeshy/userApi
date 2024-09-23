@@ -19,8 +19,6 @@ const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
 // const client = new twilio(accountSid, authToken);
 
-// const accountSid = 'AC2600b067455bb9e814a03a47ad784909';
-// const authToken = '631658de0a94a33d779e23dd9266cba8';
 const client = new twilio(accountSid, authToken);
 
 /*
